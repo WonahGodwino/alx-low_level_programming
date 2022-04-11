@@ -2,11 +2,8 @@
 /**
  *
  *main - Entry point
- *
- *
- *
- *Return: Always 0 (Success)
- *
+ *my hello printf task
+ *Return: Return 1 after program execution
  */
 int main(void)
 {
