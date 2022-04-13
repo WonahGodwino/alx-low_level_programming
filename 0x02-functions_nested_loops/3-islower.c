@@ -2,7 +2,7 @@
 /**
 *_islower-check for lower case letter
 *@c:charcter to check the case
-*return:1 if character is lowercase 0 otherwise 
+*return: 1 if character is lowercase 0 otherwise
 */
 int _islower(int c)
 /*_islower - Entry point checkr for lower case letter*/
