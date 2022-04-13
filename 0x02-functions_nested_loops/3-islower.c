@@ -7,5 +7,5 @@
 int _islower(int c)
 /* _islower:Entry point after declaration*/
 {
-return (c >= 97 && c <= 122)
+return (c >= 97 && c <= 122);
 }
