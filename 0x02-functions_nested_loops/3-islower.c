@@ -7,5 +7,6 @@
 int _islower(int c)
 /* _islower: Entry point check ofr lower case letter*/
 {
+/*return 0 or 1 for letters*/
 return (c >= 97 && c <= 122);
 }
