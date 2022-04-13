@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- *
  *main-main block
  *Description:print -putchar in a new line
  *Return:this program returns zero
  */
 int main(void)
-{	
+/*declaration after main*/
+{
 _putchar('_');
 _putchar('p');
 _putchar('u');
