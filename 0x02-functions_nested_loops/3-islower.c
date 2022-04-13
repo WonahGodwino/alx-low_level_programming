@@ -4,7 +4,7 @@
  *@c:charcter to check the case
  * return: 1 if character is lowercase 0 otherwise 
  */
-init _islower(int c)
+int _islower(int c)
 /*_islower: Entry point checkr for lower case letter*/
 {
 /*returns 1 if c is lowercase returns 0 otherwise*/
