@@ -1,13 +1,15 @@
-#include "main.h"
+ #include "main.h"
 /**
- *function print alphabet
- *Return: Always 0.
+ * print-alphabet - Entry point
+ * Return:0
  */
 void print_alphabet(void)
-/*decilaration after main*/
 {
-char letter;
-for (letter = 'a'; letter <= 'z'; letter++);
-_putchar(letter);
+char c = 'a';
+while (c <= 'z')
+{
+_putchar(c);
+c++;
+}
 _putchar('\n');
 }
