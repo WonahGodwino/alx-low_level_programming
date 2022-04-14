@@ -2,10 +2,10 @@
 /**
  *print_sign: check numbers
  *@n:number to check
- *Return 0 or 1
+ *Return 0 for 0 value, 1 for + and - for negative or 1 positive value
  */
 int print_sign(int n)
-/*print_sign: Entry point*/
+/* print _sign: check numbers*/
 {
 int test;
 if (n > 0)
