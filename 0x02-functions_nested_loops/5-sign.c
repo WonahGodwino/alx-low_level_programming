@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- *prin_sing check numbers
+ *print_sign: check numbers
  *@n:number to check
  *Return 0 or 1
  */
 int print_sign(int n)
-/* print _sign: check numbers*/
+/*print_sign: Entry point*/
 {
 int test;
 if (n > 0)
