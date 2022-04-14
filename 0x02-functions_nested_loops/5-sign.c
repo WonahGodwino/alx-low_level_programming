@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *print_sign: check numbers
+ *print_sign - check numbers
  *@n:number to check
- *Return 0 for 0 value, 1 for + and - for negative or 1 positive value
+ *Return: 0 for zero number, or + for +ve number, - for -ve numbers
  */
 int print_sign(int n)
 /* print _sign: check numbers*/
