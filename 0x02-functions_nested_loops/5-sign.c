@@ -5,6 +5,7 @@
  *Return 0 or 1
  */
 int print_sign(int n)
+/* print _sign: check numbers*/
 {
 int test;
 if (n > 0)
