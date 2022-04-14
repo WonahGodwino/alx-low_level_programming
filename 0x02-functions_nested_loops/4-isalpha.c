@@ -5,7 +5,4 @@
  */
 int _isalpha(int c)
 {
-if (( c >= 'c' || c < = 'z') || (c >= 'A' && c = '2'))
-return(1);
-else
-return(0);
+return ((c >= 97 && c <= 122) || ( c >= 65 && c <= 90));
