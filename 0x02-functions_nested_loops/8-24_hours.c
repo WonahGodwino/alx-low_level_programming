@@ -10,7 +10,8 @@ void jack_bauer(void)
 	int m1;
 	int a = 9;
 	h2 = 0;
-	while (h2 <= 2)
+	
+while (h2 <= 2)
 	{
 		/* Restrain to 23hrs not 29*/
 		a = 3;
