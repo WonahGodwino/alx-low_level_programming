@@ -2,10 +2,11 @@
 
 /**
  * jack_bauer - print every minutes of the day
- * @n: the number Starting from 00:00 to 23:59
+ * @hour: the number Starting from 00:00 to 23:59
+ * @minute: the number starting from 00:00 t0 < 60
  * Return: no return value
  */
-void jack_bauer(void);
+void jack_bauer(void)
 {
 	int hour = 0;
 	int minute = 0;
