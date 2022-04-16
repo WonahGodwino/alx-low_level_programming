@@ -15,7 +15,7 @@ void times_table(void)
 	{
 		for (number = 0; number < 10; number++)
 		{
-			if (number = 0)
+			if (number > 0)
 			{
 				printf(", ");
 			}
