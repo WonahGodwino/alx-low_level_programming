@@ -1,33 +1,42 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
- * main - create 2 pairs of numbers that do not repeat
+ * main - main block
+ * Description: Write a program that prints all possible
  * Return: 0
  */
 int main(void)
 {
-	int j, i;
+	int c;
+	int d;
+	int e = 0;
 
-	for (j = 0; j <= 9; j++)i
+	while (e < 10)
 	{
-		for (i = j; i <= 10; i++)
+		d = 0;
+		while (d < 10)
 		{
-			if (i != j && j != 0)
+			c = 0;
+			while (c < 10)
 			{
-
-				putchar(j / 10 + 48);
-				putchar(j % 10 + 48);
-				putchar(i % 10 + 48);
-
-				if (j * 100 + i != 9899)
+				if (c != d && d != e && e < d && d < c)
 				{
-					putchar(',');
-					putchar(' ');
+					putchar('0' + e);
+					putchar('0' + d);
+					putchar('0' + c);
+
+					if (c + d + e != 9 + 8 + 7)
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
+
+				c++;
 			}
-
+			d++;
 		}
-
+		e++;
 	}
 	putchar('\n');
 	return (0);
