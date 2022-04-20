@@ -3,9 +3,10 @@
 #include <stdlib.h>
 #include <time.h>
   
-// Function to randomly generates password
-// of length N
-void randomPasswordGeneration(int N)
+/** Function to randomly generates password
+* of length N
+*/
+void keygen(int N)
 {
     // Initialize counter
     int i = 0;
