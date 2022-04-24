@@ -8,7 +8,7 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int firstword;
+	int firstcounter;
 	int secondcounter;
 
 	firstcounter = 0;
