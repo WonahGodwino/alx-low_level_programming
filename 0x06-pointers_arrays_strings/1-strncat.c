@@ -8,20 +8,20 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int count = 0, count2 = 0;
+	int firstcount = 0, secondcount = 0;
 
-	while (*(dest + count) != '\0')
+	while (*(dest + firstcount) != '\0')
 	{
-		count++;
+		firstcount++;
 	}
 
-	while (count2 < n)
+	while (secondcount < n)
 	{
-		*(dest + count) = *(src + count2);
-		if (*(src + count2) == '\0')
+		*(dest + firstcount) = *(src + secondcount);
+		if (*(src + secondcount) == '\0')
 			break;
-		count++;
-		count2++;
+		firstcount++;
+		secondcount2++;
 	}
 	return (dest);
 }
