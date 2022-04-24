@@ -8,23 +8,23 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int firstcounter;
-	int secondcounter;
+	int a;
+	int b;
 
-	firstcounter = 0;
+	a = 0;
 
-	while (dest[firstcounter] != 0)
+	while (dest[a] != 0)
 	{
-		firstcounter++;
+		a++;
 	}
 
-	secondcounter = 0;
+	b = 0;
 
-	while (src[secondcounter] != 0)
+	while (src[b] != 0)
 	{
-		dest[firstcounter] = src[secondcounter];
-		firstcounter++;
-		secondcounter++;
+		dest[a] = src[b];
+		a++;
+		b++;
 	}
 	return (dest);
 }
