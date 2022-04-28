@@ -1,13 +1,4 @@
 #include "main.h"
-/**
- * 3-strspn.c - find the length of a substring from accept,
- * @accept: substring.
- * @s: string.
- * Return: (0).
- */
-unsigned int _strspn(char *s, char *accept);
-{
-#include "main.h"
 
 /**
  * _strspn - gets the length of a prefix substring.
