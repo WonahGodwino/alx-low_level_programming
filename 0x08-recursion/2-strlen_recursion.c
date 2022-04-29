@@ -5,7 +5,7 @@
  * return: Always return length
  */
 
-int _strlen_recursion(char *s);
+int _strlen_recursion(char *s)
 {
 	static int length;
 
