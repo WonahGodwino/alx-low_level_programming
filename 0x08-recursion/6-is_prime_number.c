@@ -6,7 +6,7 @@
 */
 int primeno(int n)
 {
-	if ((n % 3) % != 1)
+	if ((n % 3) > 1)
 	{
 	return (1);
 	}
