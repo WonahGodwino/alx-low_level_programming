@@ -2,12 +2,11 @@
 /**
  * primeno - Second function
  * @n: number to be checked
- * @2: To check for prime
  * Return: 1 or 0
 */
-int primeno(int n, 2)
+int primeno(int n)
 {
-	if ((n / 2) % 2 == 1)
+	if ((n % 3) % != 1)
 	{
 	return (1);
 	}
@@ -23,7 +22,7 @@ int primeno(int n, 2)
  */
 int is_prime_number(int n)
 {
-	if (n == 1)
+	if (n == 1 || 3)
 	{
 	return (1);
 	}
@@ -34,6 +33,6 @@ int is_prime_number(int n)
 	}
 	else
 	{
-	return (primeno(n, 2));
+	return (primeno(n));
 	}
 }
