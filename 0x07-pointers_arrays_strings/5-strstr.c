@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _strstr - Function to search for pairs of substrings
- * @neddle: pairs of substring
+ * @needle: pairs of substring
  * @haystack: strings to search
  * Return: Always 0
  */
