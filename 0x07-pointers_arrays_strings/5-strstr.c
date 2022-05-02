@@ -1,27 +1,26 @@
 #include "main.h"
 /**
- * _strspn - Function to search for pairs of strings
- * @s: strings to search
- * @accept: accepted strings
- * Return: Always 0 (Success) or n
+ * _strstr - Function to search for pairs of substrings
+ * @neddle: pairs of substring
+ * @haystack: strings to search
+ * Return: Always 0
  */
-unsigned int _strspn(char *s, char *accept)
+char *_strstr(char *haystack, char *needle)
 {
-	unsigned int n = 0;
-	int j;
-
-	while (*s++)
+	for (; *haystack != '\0'; haystack++)
 	{
-		for (j = 0; accept[j]; j++)
+		char *strg = haystack;
+		char *p = needle;
+
+		while (*strg == *p && *p != '\0')
 		{
-			if (*s[j] == accept[j])
-			{
-				n++;
-				break;
-			}
-			else if (accept[j + 1] == '\0')
-				return (n);
+			strg++;
+			p++;
 		}
+
+		if (*p == '\0')
+			return (haystack);
 	}
-	return (n);
+
+	return (0);
 }
