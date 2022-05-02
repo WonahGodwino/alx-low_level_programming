@@ -20,7 +20,7 @@ void keygen()
     srand((unsigned int)(time(NULL)));
   
     /* Array of numbers*/
-    int  numbers[] = '123456789';
+    int  numbers[] = 123456789;
   
     /* Array of small alphabets*/
     char letter[] = "abcdefghijklmnoqprstuvwyzx";
