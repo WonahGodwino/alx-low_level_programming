@@ -6,7 +6,7 @@
 /** Function to randomly generates password
 * of length N
 */
-void keygen(int N)
+void keygen()
 {
     /* Initialize counter*/
     int i = 0;
@@ -32,7 +32,7 @@ void keygen(int N)
     char symbols[] = "!@#$^&*?";
   
     /*Stores the random password */
-    char password[N];
+    char password[5];
   
     /** To select the randomizer
     // inside the loop */
