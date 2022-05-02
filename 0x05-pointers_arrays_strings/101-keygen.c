@@ -20,7 +20,7 @@ void keygen()
     srand((unsigned int)(time(NULL)));
   
     /* Array of numbers*/
-    char numbers[] = "0123456789";
+    int  numbers[] = "0123456789";
   
     /* Array of small alphabets*/
     char letter[] = "abcdefghijklmnoqprstuvwyzx";
@@ -39,7 +39,7 @@ void keygen()
     randomizer = rand() % 4;
   
     /*Iterate over the range [0, N]*/
-    for (i = 0; i < N; i++) {
+    for (i = 0; i < 5; i++) {
   
         if (randomizer == 1) {
             password[i] = numbers[rand() % 10];
