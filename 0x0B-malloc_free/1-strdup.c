@@ -29,7 +29,9 @@ char *_strdup(char *str)
 		else
 		{
 			for (i = 0; i <= j; i++)
+			{
 				strout[i] = str[i];
-				return (strout);
+			}
+			return (strout);
 		}
 }
